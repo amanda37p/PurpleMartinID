@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">PurpleMartinID</string>
+    <string name="app_title">Please select one of the below birds for more information:</string>
+    <string name="bird_areas_pm">Please select one of the below areas for more information about the \n Purple Martin:</string>
+    <string name="bird_areas_ts">Please select one of the below areas for more information about the \n Tree Swallow:</string>
+    <string name="bird_areas_bns">Please select one of the below areas for more information about the \n Barn Swallow:</string>
+    <string name="bird_areas_es">Please select one of the below areas for more information about the \n European Starling:</string>
+    <string name="bird_areas_bks">Please select one of the below areas for more information about the \n Bank Swallow:</string>
+    <string name="bird_areas_cs">Please select one of the below areas for more information about the \n Cliff Swallow:</string>
+    <string name="bird_areas_gcf">Please select one of the below areas for more information about the \n Great Crested Flycatcher:</string>
+    <string name="bird_areas_hw">Please select one of the below areas for more information about the \n House Wren:</string>
+    <string name="bird_areas_eb">Please select one of the below areas for more information about the \n Eastern Bluebird:</string>
+    <string name="bird_areas_hf">Please select one of the below areas for more information about the \n House Finch:</string>
+    <string name="bird_areas_hs">Please select one of the below areas for more information about the \n House Sparrow:</string>
+    <string name="association_desc">The Purple Martin Conservation Association is an international nonprofit organization dedicated to the conservation of the Purple Martin (Progne subis) through scientific research, state of the art wildlife management techniques and public education.</string>
+    <string name="purple_martin">Purple Martin</string>
+    <string name="tree_swallow">Tree Swallow</string>
+    <string name="barn_swallow">Barn Swallow</string>
+    <string name="european_starling">European Starling</string>
+    <string name="bank_swallow">Bank Swallow</string>
+    <string name="cliff_swallow">Cliff Swallow</string>
+    <string name="great_crested_flycatcher">Great Crested Flycatcher</string>
+    <string name="house_wren">House Wren</string>
+    <string name="eastern_bluebird">Eastern Bluebird</string>
+    <string name="house_finch">House Finch</string>
+    <string name="house_sparrow">House Sparrow</string>
+    <string name="bird">Bird</string>
+    <string name="egg">Egg</string>
+    <string name="nest">Nest</string>
+    <string name="housing">Housing</string>
+</resources>

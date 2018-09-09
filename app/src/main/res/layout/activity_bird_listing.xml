@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/birdsTitle"
+            style="@style/BirdTextView"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:textSize="22sp"
+            android:text="@string/app_title"/>
+        <Button
+            android:id="@+id/purpleMartinButton"
+            style="@style/BirdButtons"
+            android:drawableTop="@drawable/purple_martin"
+            android:text="@string/purple_martin" />
+        <Button
+            android:id="@+id/treeSwallowButton"
+            style="@style/BirdButtons"
+            android:drawableTop="@drawable/tree_swallow"
+            android:text="@string/tree_swallow" />
+        <Button
+            android:id="@+id/barnSwallowButton"
+            style="@style/BirdButtons"
+            android:drawableTop="@drawable/barn_swallow"
+            android:text="@string/barn_swallow" />
+        <Button
+            android:id="@+id/europeanStarlingButton"
+            style="@style/BirdButtons"
+            android:drawableTop="@drawable/european_starling"
+            android:text="@string/european_starling" />
+        <Button
+            android:id="@+id/bankSwallowButton"
+            style="@style/BirdButtons"
+            android:drawableTop="@drawable/bank_swallow"
+            android:text="@string/bank_swallow" />
+        <Button
+            android:id="@+id/cliffSwallowButton"
+            style="@style/BirdButtons"
+            android:drawableTop="@drawable/cliff_swallow"
+            android:text="@string/cliff_swallow" />
+        <Button
+            android:id="@+id/greatCrestedFlycatcherButton"
+            style="@style/BirdButtons"
+            android:drawableTop="@drawable/great_crested_flycatcher"
+            android:text="@string/great_crested_flycatcher" />
+        <Button
+            android:id="@+id/houseWrenButton"
+            style="@style/BirdButtons"
+            android:drawableTop="@drawable/house_wren"
+            android:text="@string/house_wren" />
+        <Button
+            android:id="@+id/easternBluebirdButton"
+            style="@style/BirdButtons"
+            android:drawableTop="@drawable/bluebird"
+            android:text="@string/eastern_bluebird" />
+        <Button
+            android:id="@+id/houseFinchButton"
+            style="@style/BirdButtons"
+            android:drawableTop="@drawable/house_finch"
+            android:text="@string/house_finch" />
+        <Button
+            android:id="@+id/houseSparrowButton"
+            style="@style/BirdButtons"
+            android:drawableTop="@drawable/house_sparrow"
+            android:text="@string/house_sparrow" />
+        <TextView
+            android:id="@+id/purpleMartinDescription"
+            style="@style/BirdTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="@string/association_desc"/>
+    </LinearLayout>
+</ScrollView>
