@@ -1,6 +1,7 @@
 package org.purplemartin.purplemartinid;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Vibrator;
 import android.support.v7.app.AppCompatActivity;
@@ -29,6 +30,26 @@ public class EasternBluebirdInfoActivity extends AppCompatActivity {
             Vibrator vb = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
             if (vb != null) {
                 vb.vibrate(100);
+            }
+
+            switch(v.getId()) {
+                case R.id.birdButtonEB:
+                    Intent intent1 = new Intent(EasternBluebirdInfoActivity.this, EasternBluebirdBirdActivity.class);
+                    startActivity(intent1);
+                    break;
+                case R.id.nestButtonEB:
+                    Intent intent2 = new Intent(EasternBluebirdInfoActivity.this, EasternBluebirdNestActivity.class);
+                    startActivity(intent2);
+                    break;
+                case R.id.eggButtonEB:
+                    Intent intent3 = new Intent(EasternBluebirdInfoActivity.this, EasternBluebirdEggActivity.class);
+                    startActivity(intent3);
+                    break;
+                case R.id.housingButtonEB:
+                    Intent intent4 = new Intent(EasternBluebirdInfoActivity.this, EasternBluebirdHousingActivity.class);
+                    startActivity(intent4);
+                    break;
+
             }
         }
     }

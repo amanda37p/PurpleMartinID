@@ -1,6 +1,7 @@
 package org.purplemartin.purplemartinid;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Vibrator;
 import android.support.v7.app.AppCompatActivity;
@@ -29,6 +30,26 @@ public class CliffSwallowInfoActivity extends AppCompatActivity {
             Vibrator vb = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
             if (vb != null) {
                 vb.vibrate(100);
+            }
+
+            switch(v.getId()) {
+                case R.id.birdButtonCS:
+                    Intent intent1 = new Intent(CliffSwallowInfoActivity.this, CliffSwallowBirdActivity.class);
+                    startActivity(intent1);
+                    break;
+                case R.id.nestButtonCS:
+                    Intent intent2 = new Intent(CliffSwallowInfoActivity.this, CliffSwallowNestActivity.class);
+                    startActivity(intent2);
+                    break;
+                case R.id.eggButtonCS:
+                    Intent intent3 = new Intent(CliffSwallowInfoActivity.this, CliffSwallowEggActivity.class);
+                    startActivity(intent3);
+                    break;
+                case R.id.housingButtonCS:
+                    Intent intent4 = new Intent(CliffSwallowInfoActivity.this, CliffSwallowHousingActivity.class);
+                    startActivity(intent4);
+                    break;
+
             }
         }
     }

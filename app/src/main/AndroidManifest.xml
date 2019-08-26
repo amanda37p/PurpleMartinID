@@ -42,6 +42,95 @@
         </activity>
         <activity android:name=".HouseSparrowInfoActivity" android:screenOrientation="portrait">
         </activity>
+        <activity android:name=".PurpleMartinBirdActivity" android:screenOrientation="portrait">
+    </activity>
+        <activity android:name=".PurpleMartinNestActivity" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".PurpleMartinEggActivity" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".PurpleMartinHousingActivity" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".TreeSwallowBirdActivity" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".TreeSwallowNestActivity" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".TreeSwallowEggActivity" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".TreeSwallowHousingActivity" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".BarnSwallowBirdActivity" android:screenOrientation="portrait">
+    </activity>
+        <activity android:name=".BarnSwallowNestActivity" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".BarnSwallowEggActivity" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".BarnSwallowHousingActivity" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".EuropeanStarlingBirdActivity" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".EuropeanStarlingNestActivity" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".EuropeanStarlingEggActivity" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".EuropeanStarlingHousingActivity" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".BankSwallowBirdActivity" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".BankSwallowNestActivity" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".BankSwallowEggActivity" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".BankSwallowHousingActivity" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".CliffSwallowBirdActivity" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".CliffSwallowNestActivity" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".CliffSwallowEggActivity" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".CliffSwallowHousingActivity" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".GreatCrestedFlycatcherBirdActivity" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".GreatCrestedFlycatcherNestActivity" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".GreatCrestedFlycatcherEggActivity" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".GreatCrestedFlycatcherHousingActivity" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".HouseWrenBirdActivity" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".HouseWrenNestActivity" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".HouseWrenEggActivity" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".HouseWrenHousingActivity" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".EasternBluebirdBirdActivity" android:screenOrientation="portrait">
+    </activity>
+        <activity android:name=".EasternBluebirdNestActivity" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".EasternBluebirdEggActivity" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".EasternBluebirdHousingActivity" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".HouseFinchBirdActivity" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".HouseFinchNestActivity" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".HouseFinchEggActivity" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".HouseFinchHousingActivity" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".HouseSparrowBirdActivity" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".HouseSparrowNestActivity" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".HouseSparrowEggActivity" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".HouseSparrowHousingActivity" android:screenOrientation="portrait">
+        </activity>
+
     </application>
 
 </manifest>

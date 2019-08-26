@@ -1,6 +1,7 @@
 package org.purplemartin.purplemartinid;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Vibrator;
 import android.support.v7.app.AppCompatActivity;
@@ -29,6 +30,26 @@ public class GreatCrestedFlycatcherInfoActivity extends AppCompatActivity {
             Vibrator vb = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
             if (vb != null) {
                 vb.vibrate(100);
+            }
+
+            switch(v.getId()) {
+                case R.id.birdButtonGCF:
+                    Intent intent1 = new Intent(GreatCrestedFlycatcherInfoActivity.this, GreatCrestedFlycatcherBirdActivity.class);
+                    startActivity(intent1);
+                    break;
+                case R.id.nestButtonGCF:
+                    Intent intent2 = new Intent(GreatCrestedFlycatcherInfoActivity.this, GreatCrestedFlycatcherNestActivity.class);
+                    startActivity(intent2);
+                    break;
+                case R.id.eggButtonGCF:
+                    Intent intent3 = new Intent(GreatCrestedFlycatcherInfoActivity.this, GreatCrestedFlycatcherEggActivity.class);
+                    startActivity(intent3);
+                    break;
+                case R.id.housingButtonGCF:
+                    Intent intent4 = new Intent(GreatCrestedFlycatcherInfoActivity.this, GreatCrestedFlycatcherHousingActivity.class);
+                    startActivity(intent4);
+                    break;
+
             }
         }
     }
